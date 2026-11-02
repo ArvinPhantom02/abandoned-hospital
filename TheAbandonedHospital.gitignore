@@ -1,0 +1,8 @@
+git init
+git lfs install
+git lfs track "*.psd" "*.fbx" "*.png" "*.jpg" "*.wav" "*.mp3" "*.ogg"
+git add .
+git commit -m "Phase 1: first playable section"
+git branch -M main
+git remote add origin https://github.com/USERNAME/abandoned-hospital.git
+git push -u origin main
